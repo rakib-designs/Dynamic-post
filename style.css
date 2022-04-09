@@ -1,0 +1,51 @@
+/* brower reset codes */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* broser reset code */
+
+/* posts section start here */
+
+.posts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post {
+  width: 22%;
+  margin: 10px;
+  padding: 30px 15px;
+  box-shadow: 0px 4px 8px #2d3436;
+}
+
+.heading {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.post-title {
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .post {
+    flex-basis: 45%;
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .post {
+    flex-basis: 100%;
+    color: green;
+  }
+}
+
+/* posts section end here */
